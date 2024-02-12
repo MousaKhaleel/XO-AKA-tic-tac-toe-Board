@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 1%;
+}
+.main-container{
+    display: flex;
+    margin-inline: 26%;
+    margin-top: 10%;
+}
+.players{
+    margin-right: 20%;
+    margin-top: 20%;
+}
+.xo table, tr, td{
+    padding-block: 40px;
+    padding-inline: 50px;
+}
+.xo td{
+    font-size: 200%;
+    font-weight: bolder;
+    color: white;
+}
+.xo table{
+    border-collapse: collapse;
+}
+.xo td{
+    border: 1px solid black;
+}
+.color1{
+    background: rgb(139, 72, 206);
+}
+.color2{
+    background: rgb(240, 114, 177);
+}
+.play{
+    margin-left: 20%;
+    margin-top: 2%;
+    background: hotpink;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding-inline: 20%;
+    padding-block: 4%;
+}
+.color1:hover{
+    background: rgb(85, 25, 145);
+}
+.color2:hover{
+    background: rgb(231, 37, 134);
+}
+
+
+
+/* ----------------- */
+
+
+
+.xo button{
+    /* visibility: hidden; */
+    /* background: none; */
+    border: 0;
+    padding-inline: 100%;
+    padding-block: 50%;
+}
+.xo button:hover{
+    visibility: visible;
+}
+
+/* a:visited{
+
+}
+
+button: */
