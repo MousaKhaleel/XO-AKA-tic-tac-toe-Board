@@ -7,19 +7,21 @@ h1{
     text-align: center;
     margin-top: 1%;
 }
+h2{
+    text-align: center;
+    margin-top: 6%;
+}
 .main-container{
     display: flex;
-    margin-inline: 26%;
-    margin-top: 10%;
+    margin-inline: 16%;
+    margin-top: 2%;
 }
 .players{
-    margin-right: 20%;
-    margin-top: 20%;
+    float: left;
+    margin-right: 16%;
+    margin-top: 18%;
 }
-.xo table, tr, td{
-    padding-block: 40px;
-    padding-inline: 50px;
-}
+
 .xo td{
     font-size: 200%;
     font-weight: bolder;
@@ -31,22 +33,14 @@ h1{
 .xo td{
     border: 1px solid black;
 }
+
 .color1{
     background: rgb(139, 72, 206);
 }
 .color2{
     background: rgb(240, 114, 177);
 }
-.play{
-    margin-left: 20%;
-    margin-top: 2%;
-    background: hotpink;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding-inline: 20%;
-    padding-block: 4%;
-}
+
 .color1:hover{
     background: rgb(85, 25, 145);
 }
@@ -54,25 +48,40 @@ h1{
     background: rgb(231, 37, 134);
 }
 
-
-
 /* ----------------- */
 
-
+.xo{
+    float: right;
+    position: relative;
+}
 
 .xo button{
-    /* visibility: hidden; */
-    /* background: none; */
+    position: relative;
+    z-index: 1;
     border: 0;
-    padding-inline: 100%;
-    padding-block: 50%;
+    padding-inline: 28px;
+    padding-block: 18px;
+    width: 100%;
+    height: 50%; 
+}
+.color1 button{
+    background: rgb(139, 72, 206);
+    color: rgb(139, 72, 206);
+}
+.color2 button{
+    background: rgb(240, 114, 177);
+    color: rgb(240, 114, 177);
+}
+.color1 button:hover{
+    background: rgb(85, 25, 145);
+    color: white;
+}
+.color2 button:hover{
+    background: rgb(231, 37, 134);
+    color: white;
 }
 .xo button:hover{
     visibility: visible;
 }
 
-/* a:visited{
-
-}
-
-button: */
+/* a:visited{ */
